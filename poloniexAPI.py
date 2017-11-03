@@ -6,8 +6,8 @@ import hmac,hashlib
 import threading
 import re
 
-key="52YKS3V0-OR4H6PI0-OPJUOA64-OCRM8303"
-secret="1fe5448048fb0be45d822092fd808d0ca99452868368fb31c17019c1ae10cfd2f2c4540cb43981fbfb4468332bdac11761212ffb1be2dd4b09abad6be8449f22"
+key=""
+secret=""
 
 def createTimeStamp(datestr, format="%Y-%m-%d %H:%M:%S"):
     return time.mktime(time.strptime(datestr, format))
